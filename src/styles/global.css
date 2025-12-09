@@ -18,6 +18,7 @@ a {
 
 section {
   padding: 80px 20px;
-  max-width: 1000px;
-  margin: 0 auto;
+  width: 100%;     /* ensure section covers full width */
+  max-width: none; /* remove limit */
+  margin: 0;       /* remove auto center */
 }
