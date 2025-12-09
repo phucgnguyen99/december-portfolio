@@ -1,0 +1,51 @@
+.hero {
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subtitle {
+  color: #60a5fa;
+  font-size: 14px;
+}
+
+.heading {
+  font-size: 40px;
+  margin: 12px 0;
+}
+
+.highlight {
+  color: #93c5fd;
+}
+
+.desc {
+  max-width: 480px;
+  margin: 14px 0 24px;
+  color: #cbd5e1;
+  line-height: 1.5;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+}
+
+.btnPrimary {
+  padding: 10px 18px;
+  background: #3b82f6;
+  border-radius: 100px;
+  font-size: 14px;
+}
+
+.btnGhost {
+  padding: 10px 18px;
+  border: 1px solid #475569;
+  border-radius: 100px;
+  font-size: 14px;
+}
+.btnPrimary:hover,
+.btnGhost:hover {
+  opacity: 0.8;
+  transition: 0.2s;
+}

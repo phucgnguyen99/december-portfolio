@@ -1,0 +1,24 @@
+.text {
+  color: #cbd5e1;
+  margin-bottom: 16px;
+  max-width: 520px;
+}
+
+.info {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.label {
+  font-weight: 600;
+}
+
+.info a {
+  color: #93c5fd;
+}
+
+.info a:hover {
+  text-decoration: underline;
+}

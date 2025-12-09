@@ -1,0 +1,41 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card {
+  border: 1px solid #1e293b;
+  border-radius: 12px;
+  padding: 16px;
+  background: #020617;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.role {
+  font-weight: 600;
+}
+
+.company {
+  font-size: 14px;
+  color: #cbd5e1;
+}
+
+.period {
+  font-size: 12px;
+  color: #94a3b8;
+}
+
+.details {
+  margin-top: 8px;
+  padding-left: 18px;
+  color: #cbd5e1;
+  font-size: 14px;
+  line-height: 1.5;
+}
